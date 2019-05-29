@@ -1,0 +1,10 @@
+class CfgSounds
+{
+    sounds[] = {};
+    class callah
+    {
+        name = "callah";
+        sound[] = { "sfx\callah.ogg",db+10, 1};
+        titles[] = {1, ""};
+    };
+};
