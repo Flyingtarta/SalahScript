@@ -1,8 +1,7 @@
-
+is !(isserver) exitwith{};
 call compile preprocessfile "varinit.sqf";                                      //compila las variables
 
 sleep 1;
-
 
 { if !(_x in plaz) then {                                                       // agarra cada helipad del mapa y lo pone como lugar de rezo y repdrouce el salath
     [plaz , _x]call BIS_fnc_arrayPush;
