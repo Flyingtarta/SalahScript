@@ -13,7 +13,7 @@ _displaz = [];
 } foreach Locplaz;
 
 _cerc    = _Displaz select {_x < 300};                                          // busca cual valor es menos a 300
-_plz     = [];                                                                  // porque? nadie lo sabe
+_plz     = [];                                                                  
 if (_cerc isEqualTo []) then {                                                  //si no hay valor menor a 200
   _plz = position _mus;                                                         //reza en el lugar (expandible aca)
 } else {
