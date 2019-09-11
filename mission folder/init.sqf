@@ -20,7 +20,7 @@ while { true } do {
   if ((date select 3) in [5,7,14,17,20,22] && (date select 4) < 4) then {       //a los horarios del salath hace:
     rez = 1;                                                                    // variable de es hora de rezo
     {
-    _x say3d ["callah" ,2200, 1, false ];                                       //llamado a resar.ogg
+    _x say3d ["callah" ,2200, 1, false ];                                       //llamado a rezar.ogg
     //[_x ,["callah" ,2200, 1, false]] remoteExec ["say3d"];
     }foreach plaz;                                                              //lo reproduce en cada lugar de rezo
     sleep 240;                                                                  //espera 4minutos
